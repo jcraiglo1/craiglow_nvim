@@ -12,6 +12,7 @@ vim.opt.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 
 --Line numbers
+vim.opt.rnu = true
 vim.opt.number = true
 
 --Spell check
